@@ -1,5 +1,6 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
 }
 .color{
     color: red;
@@ -15,7 +16,7 @@ p{
 .new{
     text-decoration: none;
     padding: 10px 30px;
-    background-color: lightgreen;
+    background-color: limegreen;
 
 }
 
@@ -34,4 +35,25 @@ p{
 
 .new-item{
     display: flex;
+}
+
+.new2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px rgba(64, 92, 46, 0.658);
+}
+#border{
+    border-left: 7px solid;
+    border-image: linear-gradient (red, green);
+    border-image-slice: 1;
+}
+#border1{
+    border-left: 7px solid;
+    border-image: linear-gradient (blue, red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
