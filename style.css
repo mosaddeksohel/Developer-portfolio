@@ -1,0 +1,36 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+.color{
+    color: red;
+
+}
+p{
+    text-align: justify;
+}
+.item1{
+    display: flex;
+    padding: 2%;
+}
+.new{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: lightgreen;
+
+}
+
+.sub{
+    width: 80%;
+}
+.sub-img{
+    width: 80%;
+    padding: 5%;
+}
+.new-1{
+    padding: 10px;
+    margin: 5px;
+}
+
+.new-item{
+    display: flex;
+}
